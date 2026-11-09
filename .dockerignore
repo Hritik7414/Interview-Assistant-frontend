@@ -1,0 +1,10 @@
+node_modules
+.next
+coverage
+test-results
+playwright-report
+tests
+*.tsbuildinfo
+.git
+.vscode
+.idea

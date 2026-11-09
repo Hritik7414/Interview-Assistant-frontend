@@ -1,0 +1,32 @@
+# dependencies
+node_modules/
+
+# builds
+.next/
+out/
+*.tsbuildinfo
+
+# tests
+coverage/
+playwright-report/
+test-results/
+blob-report/
+
+# local environment files
+.env
+.env.*
+!.env.example
+
+# logs & OS
+*.log
+npm-debug.log*
+.DS_Store
+Thumbs.db
+
+# editors
+.vscode/*
+!.vscode/extensions.json
+.idea/
+
+# Next.js generates this file (it references build output)
+next-env.d.ts
